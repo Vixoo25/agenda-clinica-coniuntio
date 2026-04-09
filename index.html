@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coniuntio - Sanación Integral</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/Logo_Fondo.png" type="image/png">
+</head>
+
+<body>
+
+    <header class="hero-section">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="./assets/Video_Inicio.mp4" type="video/mp4">
+        </video>
+        <div class="navbar-overlay">
+            <div class="container header-content">
+                <div class="logo">
+                    <img src="./assets/Logo_Fondo.png" alt="Logo Coniuntio">
+                </div>
+
+                <nav class="nav-links">
+                    <a href="#inicio" class="active">Inicio</a>
+                    <a href="./nosotros/">Nosotros</a>
+                    <a href="./servicios/">Servicios</a>
+                    <a href="./contacto/">Contacto</a>
+                    <a href="#" id="agenda-btn">Agenda</a>
+                    <a href="#" id="login-btn">Inicia sesión</a>
+                </nav>
+
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+
+        <nav class="mobile-nav-links hidden" id="mobile-menu">
+            <span id="close-mobile-menu">&times;</span>
+            <a href="#inicio">Inicio</a>
+            <a href="./nosotros/">Nosotros</a>
+            <a href="./servicios/">Servicios</a>
+            <a href="./contacto/">Contacto</a>
+            <a href="#" id="mobile-agenda-btn">Agenda</a>
+            <a href="#" id="mobile-login-btn">Inicia sesión</a>
+        </nav>
+
+        <div class="hero-text-container">
+            <h1>En nuestro centro unimos ciencia y espiritualidad para acompañarte en un camino de sanación integral, donde cuerpo, mente y alma se equilibran.</h1>
+        </div>
+    </header>
+
+    <main>
+        <section id="nosotros" class="section-padding text-center reveal">
+            <div class="container max-w-3xl">
+                <div class="intro-icon">
+                    <img src="./assets/Meditacion.png" alt="Meditación y sanación integral">
+                </div>
+                <p class="intro-text">
+                    Somos un centro de salud integral que une la ciencia y la espiritualidad en un modelo de atención
+                    innovador. Acompañamos a cada persona en su viaje hacia el bienestar total, a través de terapias y
+                    métodos que combinan enfoques clínicos y herramientas complementarias. Nuestro objetivo es acompañar
+                    todo el espectro de salud, desde una mirada humana, consciente y medicinal.
+                </p>
+            </div>
+        </section>
+
+        <section id="servicios" class="section-padding bg-light reveal">
+            <div class="container">
+
+                <div class="services-grid" style="padding-top: 2rem;">
+                    <a href="./servicios/#psicoterapia" class="service-card-link reveal">
+                        <div class="service-card">
+                            <img src="./assets/1.png" alt="Psicoterapia con enfoque transpersonal" class="service-image">
+                            <h3 class="service-title">Psicoterapia con enfoque transpersonal</h3>
+                        </div>
+                    </a>
+
+                    <a href="./servicios/#medicina-integral" class="service-card-link reveal">
+                        <div class="service-card">
+                            <img src="./assets/2.png" alt="Medicina integral con enfoque en salud mental" class="service-image">
+                            <h3 class="service-title">Medicina integral con enfoque en salud mental</h3>
+                        </div>
+                    </a>
+
+                    <a href="./servicios/#trabajo-social" class="service-card-link reveal">
+                        <div class="service-card">
+                            <img src="./assets/3.png" alt="Trabajo social en salud" class="service-image">
+                            <h3 class="service-title">Trabajo social en salud</h3>
+                        </div>
+                    </a>
+
+                    <a href="./servicios/#carta-natal" class="service-card-link reveal">
+                        <div class="service-card">
+                            <img src="./assets/4.png" alt="Carta natal enfocado en lo terapéutico" class="service-image">
+                            <h3 class="service-title">Carta natal enfocado en lo terapéutico</h3>
+                        </div>
+                    </a>
+
+                    <a href="./servicios/#counseling" class="service-card-link reveal">
+                        <div class="service-card">
+                            <img src="./assets/5.png" alt="Counseling" class="service-image">
+                            <h3 class="service-title">Counseling</h3>
+                        </div>
+                    </a>
+
+                    <a href="./servicios/#terapia-floral" class="service-card-link reveal">
+                        <div class="service-card">
+                            <img src="./assets/6.png" alt="Terapia floral" class="service-image">
+                            <h3 class="service-title">Terapia floral</h3>
+                        </div>
+                    </a>
+
+                    <a href="./servicios/#constelaciones-familiares" class="service-card-link reveal">
+                        <div class="service-card">
+                            <img src="./assets/7.png" alt="Constelaciones familiares" class="service-image">
+                            <h3 class="service-title">Constelaciones familiares</h3>
+                        </div>
+                    </a>
+
+                    <a href="./servicios/#medicina-general" class="service-card-link reveal">
+                        <div class="service-card">
+                            <img src="./assets/8.png" alt="Medicina general" class="service-image">
+                            <h3 class="service-title">Medicina general</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="equipo" class="section-padding reveal">
+            <div class="container">
+                <h2 class="section-title text-center">Nuestro Equipo</h2>
+                <div class="services-grid">
+                    <div class="reveal" style="display: flex; flex-direction: column; height: 100%;">
+                        <img src="./assets/Persona1.jpeg" alt="Equipo 1" style="width: 100%; height: 400px; object-fit: cover; border-radius: 0.75rem; margin-bottom: 1rem;">
+                        <div class="service-card" style="background-color: var(--primary-color); color: white; flex-grow: 1; display: flex; flex-direction: column; justify-content: flex-start; padding-top: 2rem; border-radius: 1.5rem;">
+                            <ul style="text-align: left; padding-left: 1.5rem;">
+                                <li>Medico General</li>
+                                <li>Medico integral terapias complementarias</li>
+                                <li>Diplomado en salud mental</li>
+                                <li>Manejo del dolor y cuidados paliativos</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="reveal" style="display: flex; flex-direction: column; height: 100%;">
+                        <img src="./assets/Persona2.jpeg" alt="Equipo 2" style="width: 100%; height: 400px; object-fit: cover; border-radius: 0.75rem; margin-bottom: 1rem;">
+                        <div class="service-card" style="background-color: var(--primary-color); color: white; flex-grow: 1; display: flex; flex-direction: column; justify-content: flex-start; padding-top: 2rem; border-radius: 1.5rem;">
+                            <ul style="text-align: left; padding-left: 1.5rem;">
+                                <li>Trabajadora social</li>
+                                <li>Diplomado en Salud Mental del Niño y Adolecente</li>
+                                <li>Mg. (c) en Intervencion Social en Territorio y Ciudadania</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="reveal" style="display: flex; flex-direction: column; height: 100%;">
+                        <img src="./assets/Persona3.jpeg" alt="Equipo 3" style="width: 100%; height: 400px; object-fit: cover; border-radius: 0.75rem; margin-bottom: 1rem;">
+                        <div class="service-card" style="background-color: var(--primary-color); color: white; flex-grow: 1; display: flex; flex-direction: column; justify-content: flex-start; padding-top: 2rem; border-radius: 1.5rem;">
+                            <ul style="text-align: left; padding-left: 1.5rem;">
+                                <li>Psicologo</li>
+                                <li>Diplomado en Terapias Integrales con mencion en Psicologia Transpersonal</li>
+                                <li>Astrologo</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="donde-atendemos" class="section-padding reveal">
+            <div class="container">
+                <h2 class="section-title text-center">¿Donde atendemos?</h2>
+                <div class="testimonial-card" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                    <p class="testimonial-text" style="font-style: normal; margin-bottom: 0;">
+                        Atendemos de manera online, presencial y a domicilio. Consulta sobre nuestros espacios presenciales <a href="./contacto/" style="color: white; text-decoration: underline;">aqui</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section-padding bg-light reveal">
+            <div class="container">
+                <h2 class="section-title text-center">¡Contáctanos!</h2>
+
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Información Clave</h3>
+                        <div class="contact-line">
+                            <img src="./assets/WhatsApp.png" alt="WhatsApp" class="contact-icon">
+                            <p>+56 9 3244 9900</p>
+                        </div>
+                    <div class="contact-line">
+                        <img src="./assets/WhatsApp.png" alt="WhatsApp" class="contact-icon">
+                        <p>+56 9 5710 6939</p>
+                    </div>
+                        <p><strong>Correo:</strong></p> 
+                        <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=centroterapeuticoconiuntio@gmail.com" target="_blank" rel="noopener noreferrer">centroterapeuticoconiuntio@gmail.com</a></p>
+                        <p><strong>Redes Sociales:</strong></p>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Instagram" class="social-icon">
+                                <img src="./assets/instagram.png" alt="Instagram">
+                            </a>
+                            <a href="#" aria-label="Youtube" class="social-icon">
+                                <img src="./assets/youtube.png" alt="Youtube">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form id="contact-form">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" required>
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+
+                            <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                            <p id="form-message" class="hidden success-message">¡Mensaje enviado con éxito!</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content-grid">
+            <div class="footer-col logo-mission">
+                <img src="./assets/Logo_Fondo.png" alt="Logo Coniuntio" class="footer-logo">
+                <p class="mission-text1">
+                    <strong>Centro terapéutico Coniuntio</strong>
+                </p>
+                <p class="mission-text">
+                    Acompañamos a cada persona en su camino hacia el bienestar físico, emocional, mental y espiritual.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Explora</h3>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="./servicios/">Servicios</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Sobre Nosotros</h3>
+                <ul>
+                    <li><a href="./nosotros/">Quienes somos</a></li>
+                    <li><a href="./contacto/">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Agenda</h3>
+                <ul></ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Coniuntio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Inicia sesión</h2>
+            <form id="login-form">
+                <label for="login-email">Correo electrónico</label>
+                <input type="email" id="login-email" name="email" placeholder="ejemplo@correo.com" required>
+                
+                <label for="login-password">Contraseña</label>
+                <input type="password" id="login-password" name="password" required>
+                
+                <button type="submit" class="submit-btn">Ingresar</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="agenda-modal" class="modal">
+        <div class="modal-content modal-agenda">
+            <span class="close-modal" id="close-agenda">&times;</span>
+            <h2>Agendar una Hora</h2>
+            <p class="modal-subtitle">Ingrese sus datos para hacer una consulta de hora</p>
+            
+            <form id="agenda-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="agenda-nombre">Nombres</label>
+                        <input type="text" id="agenda-nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="agenda-apellido-p">Apellido Paterno</label>
+                        <input type="text" id="agenda-apellido-p" name="apellido_p" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="agenda-apellido-m">Apellido Materno</label>
+                        <input type="text" id="agenda-apellido-m" name="apellido_m" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="agenda-rut">Rut</label>
+                        <input type="text" id="agenda-rut" name="rut" placeholder="12.345.678-9" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="agenda-telefono">Número telefónico</label>
+                        <div class="phone-input-group">
+                            <select name="prefijo" id="agenda-prefijo">
+                                <option value="+56" selected>🇨🇱 +56</option>
+                                <option value="+54">🇦🇷 +54</option>
+                                <option value="+51">🇵🇪 +51</option>
+                            </select>
+                            <input type="tel" id="agenda-telefono" name="telefono" placeholder="9 1234 5678" inputmode="numeric" pattern="[0-9]*" required>
+                        </div>
+                    </div>
+                </div>
+
+                <label for="agenda-servicio">Servicio</label>
+                <select id="agenda-servicio" name="servicio" required>
+                    <option value="" disabled selected>Seleccione un servicio</option>
+                    <option value="psicoterapia">Psicoterapia con enfoque transpersonal</option>
+                    <option value="medicina-integral">Medicina integral con enfoque en salud mental</option>
+                    <option value="trabajo-social">Trabajo social en salud</option>
+                    <option value="carta-natal">Carta natal enfocado en lo terapéutico</option>
+                    <option value="counseling">Counseling</option>
+                    <option value="terapia-floral">Terapia floral</option>
+                    <option value="constelaciones-familiares">Constelaciones familiares</option>
+                    <option value="medicina-general">Medicina general</option>
+                </select>
+
+                <label for="agenda-nota">Nota Extra</label>
+                <textarea id="agenda-nota" name="nota" rows="3"></textarea>
+
+                <div class="modal-footer-btns">
+                    <button type="button" class="cancel-btn" id="btn-cancelar-agenda">Cancelar</button>
+                    <button type="submit" class="submit-btn">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

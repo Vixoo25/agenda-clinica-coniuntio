@@ -1,0 +1,44 @@
+{
+  "servicios": [
+    {
+      "titulo": "Psicoterapia con enfoque transpersonal",
+      "imagen": "1.png",
+      "descripcion": "Acompañamiento terapéutico que integra la dimensión psicológica, emocional y espiritual de la persona. Desde una mirada integral, esta terapia favorece la autocomprensión, la gestión consciente de las emociones y el desarrollo personal, promoviendo bienestar y sentido de vida.    La psicoterapia transpersonal aborda el proceso terapéutico desde una mirada integral que reconoce al ser humano como una unidad de cuerpo, mente, emoción y espiritú. Este enfoque amplía la visión de la psicología tradicional, integrando herramientas clínicas y recursos de desarrollo interior para acompañar procesos de crecimiento personal, crisis vitales o experiencias de transformación profunda."
+    },
+    {
+      "titulo": "Medicina integral con enfoque en salud mental",
+      "imagen": "2.png",
+      "descripcion": "La medicina integral con enfoque en salud mental ofrece un cuidado humanizado que considera al ser humano como una unidad biológica, emocional, social y espiritual. Combina la medicina convencional con herramientas terapéuticas complementarias para comprender el sentido del malestar, promover el equilibrio entre cuerpo y mente y favorecer la autorregulación natural. Con un enfoque interdisciplinario y centrado en la persona, integra diagnóstico clínico, psicoterapia, terapias complementarias y educación en salud, buscando prevenir y aliviar el sufrimiento emocional y psicosomático, fortalecer recursos internos y promover un bienestar integral y consciente."
+    },
+    {
+      "titulo": "Trabajo social en salud",
+      "imagen": "3.png",
+      "descripcion": "El trabajo social en salud y contexto clínico se enfoca en acompañar a las personas y sus familias considerando los aspectos psicosociales, familiares y comunitarios que afectan la salud y el bienestar. Desde un enfoque interdisciplinario y biopsicosocial, el profesional de trabajo social ofrece orientación, contención y apoyo en la adherencia a tratamientos, fortalecimiento de redes de apoyo y toma de decisiones informadas. Interviene de manera individual, familiar o grupal, crisis o procesos de duelo, integrando la dimensión social, emocional y clínica para favorecer el bienestar integral y calidad de vida."
+    },
+    {
+      "titulo": "Carta natal enfocado en lo terapéutico",
+      "imagen": "4.png",
+      "descripcion": "La interpretación de la carta natal con enfoque terapéutico y evolutivo es un proceso de autoconocimiento que utiliza la astrología como herramienta simbólica para explorar la personalidad, los vínculos y el desarrollo individual. No busca predecir el futuro, sino favorecer la comprensión de patrones emocionales y relacionales, integrar experiencias y reconocer los recursos internos para la transformación personal. Basada en enfoques de psicología profunda, humanista y transpersonal, esta práctica invita a reflexionar sobre el propósito vital y los aprendizajes del alma, ofreciendo un espacio de autocomprensión y crecimiento que puede realizarse de manera presencial u online, y complementarse con psicoterapia o counseling."
+    },
+    {
+      "titulo": "Counseling",
+      "imagen": "5.png",
+      "descripcion": "El counseling es un acompañamiento psicológico centrado en el presente que busca favorecer el autoconcimiento, la toma de decisiones conscientes y el desarrollo personal. A través de un espacio de escucha, contención y reflexión, permite clarificar situaciones internas, explorar emociones y fortalecer los propios recursos, promoviendo bienestar, autonomía emocional y crecimiento personal. Se desarrolla de manera individual, presencial u online, y puede integrarse con enfoques psicodinámicos y transpersonales, acompañando a la persona en momentos de cambio, crisis o búsqueda de sentido."
+    },
+    {
+      "titulo": "Terapia floral",
+      "imagen": "6.png",
+      "descripcion": "La terapia floral es un enfoque complementario que utiliza esencias florales para favorecer el equilibrio y el bienestar integral. Acompaña procesos de autoconocimiento, regulación emocional y transformación interna, ayudando a armonizar emociones como la ansiedad, el miedo o la tristeza, y protenciando cualidades como la calma y la confianza. Integrada dentro de un marco psicológico y transpersonal, promueve la conexión entre mente, cuerpo y emociones, apoyando el crecimiento y la sanación personal."
+    },
+    {
+      "titulo": "Constelaciones familiares",
+      "imagen": "7.png",
+      "descripcion": "Las constelaciones familiares son una herramienta terapéutica que permite comprender las dinámicas inconscientes del sistema familiar y su influencia en la vida emocional y relacional. A través de un enfoque integrador y profundo, buscan restablecer el orden y equilibrio en los vinculos, promoviendo la reconciliación, la liberación de cargas y una mayor claridad interior. Se ofrecen en modalidad individual o grupal, brindando un espacio de transformación y sanación que abarca lo emocional, lo relacional y lo transpersonal."
+    },
+    {
+      "titulo": "Medicina general",
+      "imagen": "8.png",
+      "descripcion": "La medicina general ofrece atención integral y personalizada como primer nivel de cuidado, enfocándose en la prevención, diagnóstico, tratamiento y seguimiento de la salud física y emocional. Considera al cuerpo y la vida de la persona de manera interconctada, promoviendo hábitos saludables, detección temprana de enfermedades, educación en salud y acompañamiento continuo. Con un enfoque centrado en el paciente, el profesional coordina el cuidado integral, derivando a especialistas cuando es necesario, para favorecer el bienestar, la calidad de vida y la participación activa de cada persona en su porpio proceso de salud."
+    }
+  ]
+}

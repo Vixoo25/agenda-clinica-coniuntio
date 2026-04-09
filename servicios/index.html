@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Coniuntio</title>
+    <!-- Estilos principales (reutilizados) -->
+    <link rel="stylesheet" href="../styles.css">
+    <!-- Estilos específicos para esta página -->
+    <link rel="stylesheet" href="servicios.css">
+    <!-- Fuente Inter de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/Logo_Fondo.png" type="image/png">
+</head>
+
+<body>
+
+    <!-- CABECERA (Reutilizada) -->
+    <header class="navbar-overlay">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/Logo_Fondo.png" alt="Logo Coniuntio"></a>
+            </div>
+            <nav class="nav-links">
+                <a href="../index.html#inicio">Inicio</a>
+                <a href="../nosotros/">Nosotros</a>
+                <a href="./" class="active">Servicios</a>
+                <a href="../contacto/">Contacto</a>
+                <a href="../index.html?openAgenda=true">Agenda</a>
+                <a href="#" id="login-btn">Inicia sesión</a>
+            </nav>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Menú Móvil Desplegable -->
+    <nav class="mobile-nav-links hidden" id="mobile-menu">
+        <a href="../index.html#inicio">Inicio</a>
+        <a href="../nosotros/">Nosotros</a>
+        <a href="./">Servicios</a>
+        <a href="../contacto/">Contacto</a>
+        <a href="../index.html?openAgenda=true">Agenda</a>
+        <a href="#" id="mobile-login-btn">Inicia sesión</a>
+        <span id="close-mobile-menu">&times;</span>
+    </nav>
+
+    <main>
+        <!-- Banner de video -->
+        <section class="servicios-hero">
+            <video autoplay muted loop playsinline class="hero-video-servicios">
+                <source src="../assets/Video_Inicio.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <!-- SECCIÓN LISTA DE SERVICIOS -->
+        <section class="services-list-section section-padding">
+            <div class="container">
+                <h1 class="page-title text-center">Nuestros Servicios</h1>
+
+                <div id="psicoterapia" class="service-item reveal">
+                    <div class="service-item-image"><img src="../assets/1.png" alt="Psicoterapia con enfoque transpersonal"></div>
+                    <div class="service-item-text">
+                        <h3>Psicoterapia con enfoque transpersonal</h3>
+                        <p>Acompañamiento terapéutico que integra la dimensión psicológica, emocional y espiritual de la persona. Desde una mirada integral, esta terapia favorece la autocomprensión, la gestión consciente de las emociones y el desarrollo personal, promoviendo bienestar y sentido de vida. La psicoterapia transpersonal aborda el proceso terapéutico desde una mirada integral que reconoce al ser humano como una unidad de cuerpo, mente, emoción y espiritú. Este enfoque amplía la visión de la psicología tradicional, integrando herramientas clínicas y recursos de desarrollo interior para acompañar procesos de crecimiento personal, crisis vitales o experiencias de transformación profunda.</p>
+                    </div>
+                </div>
+
+                <div id="medicina-integral" class="service-item reveal">
+                    <div class="service-item-image"><img src="../assets/2.png" alt="Medicina integral con enfoque en salud mental"></div>
+                    <div class="service-item-text">
+                        <h3>Medicina integral con enfoque en salud mental</h3>
+                        <p>La medicina integral con enfoque en salud mental ofrece un cuidado humanizado que considera al ser humano como una unidad biológica, emocional, social y espiritual. Combina la medicina convencional con herramientas terapéuticas complementarias para comprender el sentido del malestar, promover el equilibrio entre cuerpo y mente y favorecer la autorregulación natural. Con un enfoque interdisciplinario y centrado en la persona, integra diagnóstico clínico, psicoterapia, terapias complementarias y educación en salud, buscando prevenir y aliviar el sufrimiento emocional y psicosomático, fortalecer recursos internos y promover un bienestar integral y consciente.</p>
+                    </div>
+                </div>
+
+                <div id="trabajo-social" class="service-item reveal">
+                    <div class="service-item-image"><img src="../assets/3.png" alt="Trabajo social en salud"></div>
+                    <div class="service-item-text">
+                        <h3>Trabajo social en salud</h3>
+                        <p>El trabajo social en salud y contexto clínico se enfoca en acompañar a las personas y sus familias considerando los aspectos psicosociales, familiares y comunitarios que afectan la salud y el bienestar. Desde un enfoque interdisciplinario y biopsicosocial, el profesional de trabajo social ofrece orientación, contención y apoyo en la adherencia a tratamientos, fortalecimiento de redes de apoyo y toma de decisiones informadas. Interviene de manera individual, familiar o grupal, crisis o procesos de duelo, integrando la dimensión social, emocional y clínica para favorecer el bienestar integral y calidad de vida.</p>
+                    </div>
+                </div>
+
+                <div id="carta-natal" class="service-item reveal">
+                    <div class="service-item-image"><img src="../assets/4.png" alt="Carta natal enfocado en lo terapéutico"></div>
+                    <div class="service-item-text">
+                        <h3>Carta natal enfocado en lo terapéutico</h3>
+                        <p>La interpretación de la carta natal con enfoque terapéutico y evolutivo es un proceso de autoconocimiento que utiliza la astrología como herramienta simbólica para explorar la personalidad, los vínculos y el desarrollo individual. No busca predecir el futuro, sino favorecer la comprensión de patrones emocionales y relacionales, integrar experiencias y reconocer los recursos internos para la transformación personal. Basada en enfoques de psicología profunda, humanista y transpersonal, esta práctica invita a reflexionar sobre el propósito vital y los aprendizajes del alma, ofreciendo un espacio de autocomprensión y crecimiento que puede realizarse de manera presencial u online, y complementarse con psicoterapia o counseling.</p>
+                    </div>
+                </div>
+
+                <div id="counseling" class="service-item reveal">
+                    <div class="service-item-image"><img src="../assets/5.png" alt="Counseling"></div>
+                    <div class="service-item-text">
+                        <h3>Counseling</h3>
+                        <p>El counseling es un acompañamiento psicológico centrado en el presente que busca favorecer el autoconcimiento, la toma de decisiones conscientes y el desarrollo personal. A través de un espacio de escucha, contención y reflexión, permite clarificar situaciones internas, explorar emociones y fortalecer los propios recursos, promoviendo bienestar, autonomía emocional y crecimiento personal. Se desarrolla de manera individual, presencial u online, y puede integrarse con enfoques psicodinámicos y transpersonales, acompañando a la persona en momentos de cambio, crisis o búsqueda de sentido.</p>
+                    </div>
+                </div>
+
+                <div id="terapia-floral" class="service-item reveal">
+                    <div class="service-item-image"><img src="../assets/6.png" alt="Terapia floral"></div>
+                    <div class="service-item-text">
+                        <h3>Terapia floral</h3>
+                        <p>La terapia floral es un enfoque complementario que utiliza esencias florales para favorecer el equilibrio y el bienestar integral. Acompaña procesos de autoconocimiento, regulación emocional y transformación interna, ayudando a armonizar emociones como la ansiedad, el miedo o la tristeza, y protenciando cualidades como la calma y la confianza. Integrada dentro de un marco psicológico y transpersonal, promueve la conexión entre mente, cuerpo y emociones, apoyando el crecimiento y la sanación personal.</p>
+                    </div>
+                </div>
+
+                <div id="constelaciones-familiares" class="service-item reveal">
+                    <div class="service-item-image"><img src="../assets/7.png" alt="Constelaciones familiares"></div>
+                    <div class="service-item-text">
+                        <h3>Constelaciones familiares</h3>
+                        <p>Las constelaciones familiares son una herramienta terapéutica que permite comprender las dinámicas inconscientes del sistema familiar y su influencia en la vida emocional y relacional. A través de un enfoque integrador y profundo, buscan restablecer el orden y equilibrio en los vinculos, promoviendo la reconciliación, la liberación de cargas y una mayor claridad interior. Se ofrecen en modalidad individual o grupal, brindando un espacio de transformación y sanación que abarca lo emocional, lo relacional y lo transpersonal.</p>
+                    </div>
+                </div>
+
+                <div id="medicina-general" class="service-item reveal">
+                    <div class="service-item-image"><img src="../assets/8.png" alt="Medicina general"></div>
+                    <div class="service-item-text">
+                        <h3>Medicina general</h3>
+                        <p>La medicina general ofrece atención integral y personalizada como primer nivel de cuidado, enfocándose en la prevención, diagnóstico, tratamiento y seguimiento de la salud física y emocional. Considera al cuerpo y la vida de la persona de manera interconctada, promoviendo hábitos saludables, detección temprana de enfermedades, educación en salud y acompañamiento continuo. Con un enfoque centrado en el paciente, el profesional coordina el cuidado integral, derivando a especialistas cuando es necesario, para favorecer el bienestar, la calidad de vida y la participación activa de cada persona en su porpio proceso de salud.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER (Reutilizado) -->
+    <footer class="footer">
+        <div class="container footer-content-grid">
+            <div class="footer-col logo-mission"><img src="../assets/Logo_Fondo.png" alt="Logo Coniuntio" class="footer-logo"><p class="mission-text1"><strong>Centro terapéutico Coniuntio</strong></p><p class="mission-text">Acompañamos a cada persona en su camino hacia el bienestar físico, emocional, mental y espiritual.</p></div>
+            <div class="footer-col"><h3>Explora</h3><ul><li><a href="../index.html#inicio">Inicio</a></li><li><a href="./">Servicios</a></li></ul></div>
+            <div class="footer-col"><h3>Sobre Nosotros</h3><ul><li><a href="../nosotros/">Quienes somos</a></li><li><a href="../contacto/">Contacto</a></li></ul></div>
+            <div class="footer-col"><h3>Agenda</h3><ul></ul></div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2026 Coniuntio. Todos los derechos reservados.</p></div>
+    </footer>
+
+    <!-- Modal de Inicio de Sesión -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Inicia sesión</h2>
+            <form id="login-form">
+                <label for="login-email">Correo electrónico</label>
+                <input type="email" id="login-email" name="email" placeholder="ejemplo@correo.com" required>
+                
+                <label for="login-password">Contraseña</label>
+                <input type="password" id="login-password" name="password" required>
+                
+                <button type="submit" class="submit-btn">Ingresar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+    <script src="servicios.js"></script>
+</body>
+
+</html>

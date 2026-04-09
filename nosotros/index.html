@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros - Coniuntio</title>
+    <!-- Estilos principales (reutilizados) -->
+    <link rel="stylesheet" href="../styles.css">
+    <!-- Estilos específicos para esta página -->
+    <link rel="stylesheet" href="nosotros.css">
+    <!-- Fuente Inter de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/Logo_Fondo.png" type="image/png">
+</head>
+
+<body>
+
+    <!-- CABECERA (Reutilizada de la página principal) -->
+    <header class="navbar-overlay">
+        <div class="container header-content">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/Logo_Fondo.png" alt="Logo Coniuntio"></a>
+            </div>
+
+            <!-- Navegación Desktop -->
+            <nav class="nav-links">
+                <a href="../index.html#inicio">Inicio</a>
+                <a href="./index.html" class="active">Nosotros</a>
+                <a href="../servicios/">Servicios</a>
+                <a href="../contacto/">Contacto</a>
+                <a href="../index.html?openAgenda=true">Agenda</a>
+                <a href="#" id="login-btn">Inicia sesión</a>
+            </nav>
+
+            <!-- Botón de Menú Móvil -->
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Menú Móvil Desplegable -->
+    <nav class="mobile-nav-links hidden" id="mobile-menu">
+        <a href="../index.html#inicio">Inicio</a>
+        <a href="./index.html">Nosotros</a>
+        <a href="../servicios/">Servicios</a>
+        <a href="../contacto/">Contacto</a>
+        <a href="../index.html?openAgenda=true">Agenda</a>
+        <a href="#" id="mobile-login-btn">Inicia sesión</a>
+        <span id="close-mobile-menu">&times;</span>
+    </nav>
+
+    <main>
+        <!-- Banner de la página "Nosotros" -->
+        <section class="nosotros-hero">
+            <!-- Video de Fondo -->
+            <video autoplay muted loop playsinline class="hero-video-nosotros">
+                <source src="../assets/Video_Inicio.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <!-- Contenido principal de la página -->
+        <section class="nosotros-content section-padding reveal">
+            <div class="container">
+                <h1 class="page-title text-center">Nosotros</h1>
+
+                <div class="about-grid">
+                    <!-- Columna de texto -->
+                    <div class="about-text">
+                        <h2>Quienes Somos</h2>
+                        <p>Somos un equipo de profesionales del ámbito de la salud y las terapias integrativas compometidos con el bienestar integral de las personas. Nuestro enfoque une la solidez del conocimiento científico con una mirada humana y espiritual, reconociando que cuerpo, mente y alma forman una unidad inseparable.</p>
+                        <p>En nuestro centro acompañamos procesos de sanación y crecimiento personal desde un abordaje clínico y terapéutico, basado en la empatía, el respeto y la atención personalizada. Creemos que cada persona posee su propio potencial de equilibrio y bienestar, y nuestra labor es ofrecer el acompañamiento profesional necesario para favorecer ese proceso de manera segura, ética y consciente.</p>
+                    </div>
+                    <!-- Columna de imagen -->
+                    <div class="about-image">
+                        <img src="../assets/Nosotros.png" alt="Manos unidas representando el equipo de Coniuntio">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Nuestro Equipo -->
+        <section class="section-padding">
+            <div class="container">
+                <h2 class="section-title text-center">Nuestro Equipo</h2>
+                <div class="services-grid">
+                    <!-- Persona 1 -->
+                    <div class="reveal" style="display: flex; flex-direction: column; height: 100%;">
+                        <img src="../assets/Persona1.jpeg" alt="Equipo 1" style="width: 100%; height: 400px; object-fit: cover; border-radius: 0.75rem; margin-bottom: 1rem;">
+                        <div class="service-card" style="background-color: var(--primary-color); color: white; flex-grow: 1; display: flex; flex-direction: column; justify-content: flex-start; padding-top: 2rem; border-radius: 1.5rem;">
+                            <ul style="text-align: left; padding-left: 1.5rem;">
+                                <li>Medico General</li>
+                                <li>Medico integral terapias complementarias</li>
+                                <li>Diplomado en salud mental</li>
+                                <li>Manejo del dolor y cuidados paliativos</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Persona 2 -->
+                    <div class="reveal" style="display: flex; flex-direction: column; height: 100%;">
+                        <img src="../assets/Persona2.jpeg" alt="Equipo 2" style="width: 100%; height: 400px; object-fit: cover; border-radius: 0.75rem; margin-bottom: 1rem;">
+                        <div class="service-card" style="background-color: var(--primary-color); color: white; flex-grow: 1; display: flex; flex-direction: column; justify-content: flex-start; padding-top: 2rem; border-radius: 1.5rem;">
+                            <ul style="text-align: left; padding-left: 1.5rem;">
+                                <li>Trabajadora social</li>
+                                <li>Diplomado en Salud Mental del Niño y Adolecente</li>
+                                <li>Mg. (c) en Intervencion Social en Territorio y Ciudadania</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Persona 3 -->
+                    <div class="reveal" style="display: flex; flex-direction: column; height: 100%;">
+                        <img src="../assets/Persona3.jpeg" alt="Equipo 3" style="width: 100%; height: 400px; object-fit: cover; border-radius: 0.75rem; margin-bottom: 1rem;">
+                        <div class="service-card" style="background-color: var(--primary-color); color: white; flex-grow: 1; display: flex; flex-direction: column; justify-content: flex-start; padding-top: 2rem; border-radius: 1.5rem;">
+                            <ul style="text-align: left; padding-left: 1.5rem;">
+                                <li>Psicologo</li>
+                                <li>Diplomado en Terapias Integrales con mencion en Psicologia Transpersonal</li>
+                                <li>Astrologo</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Misión, Visión y Valores -->
+        <section class="mission-vision-values section-padding">
+            <div class="container">
+                <!-- Misión -->
+                <h2 class="page-title text-center">Misión</h2>
+                <div class="info-box reveal">
+                    <p>Promover la sanación integral del ser humano, integrando los avances de la ciencia en la sabiduría espiritual y las prácticas terapéuticas complementarias. Buscamos acompañar a cada persona en su proceso de bienestar físico, emocional, mental y espiritual, reconociendo la interconexión entre cuerpo, mente y alma.</p>
+                </div>
+
+                <!-- Visión -->
+                <h2 class="page-title text-center">Visión</h2>
+                <div class="info-box reveal">
+                    <p>Ser un centro de salud integral de vanguardia, reconocido por unir la ciencia y la espiritualidad en un enfoque innovador de sanación y bienestar. Aspiramos a transformar la forma en que se comprende y se aborda la salud, impulsando una mirada más humana, consciente y multidimensional del ser, donde la evidencia científica y la sabiduría interior convivan en armonía.</p>
+                </div>
+
+                <!-- Valores -->
+                <h2 class="page-title text-center">Valores</h2>
+                <div class="values-grid">
+                    <div class="info-box reveal">
+                        <h3>Atención centrada en la persona</h3>
+                        <p>Cada ser humano es único. Nuestra labor se enfoca en acompañar integralmente al paciente, respetando su historia, ritmo y proceso vital. La persona no es un síntoma, sino el centro y la protagonista de su propio camino de sanación.</p>
+                    </div>
+                    <div class="info-box reveal">
+                        <h3>Integración ciencia-espiritualidad</h3>
+                        <p>Creemos en el encuentro entre el conocimiento científico y la sabiduría espiritual como caminos complementarios para comprender y cuidar al ser humano en todas sus dimensiones.</p>
+                    </div>
+                    <div class="info-box reveal">
+                        <h3>Innovación y vanguardia</h3>
+                        <p>Buscamos constantemente nuevas formas de integrar saberes, tecnologías y prácticas terapéuticas que promuevan un modelo de salud más holístico, sostenible y humano.</p>
+                    </div>
+                    <div class="info-box reveal">
+                        <h3>Autonomía y autoconocimiento</h3>
+                        <p>Acompañamos a las personas en el desarrollo de su propia conciencia, fortaleciendo su capacidad de decisión, autocuidado y transformación interior.</p>
+                    </div>
+                    <div class="info-box reveal">
+                        <h3>Trabajo interdisciplinario</h3>
+                        <p>Valoramos el intercambio entre distintas áreas de la salud, las terapias complementarias y las ciencias humanas, generando abordajes colaborativos e integrales.</p>
+                    </div>
+                    <div class="info-box reveal">
+                        <h3>Respeto y ética</h3>
+                        <p>Sostenemos cada acción desde el compromiso ético, la confidencialidad y el respeto por la diversidad de creencias, experiencias y caminos personales.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER (Reutilizado de la página principal) -->
+    <footer class="footer">
+        <!-- El contenido del footer es el mismo, solo asegúrate que los enlaces apunten correctamente -->
+        <div class="container footer-content-grid">
+            <!-- Columna del Logo y Misión -->
+            <div class="footer-col logo-mission">
+                <img src="../assets/Logo_Fondo.png" alt="Logo Coniuntio" class="footer-logo">
+                <p class="mission-text1">
+                    <strong>Centro terapéutico Coniuntio</strong>
+                </p>
+                <p class="mission-text">
+                    Acompañamos a cada persona en su camino hacia el bienestar físico, emocional, mental y espiritual.
+                </p>
+            </div>
+
+            <!-- Columna de Explorar -->
+            <div class="footer-col">
+                <h3>Explora</h3>
+                <ul>
+                    <li><a href="../index.html#inicio">Inicio</a></li>
+                    <li><a href="../servicios/">Servicios</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna de Sobre Nosotros -->
+            <div class="footer-col">
+                <h3>Sobre Nosotros</h3>
+                <ul>
+                    <li><a href="./index.html">Quienes somos</a></li>
+                    <li><a href="../contacto/">Contacto</a></li>
+                </ul>
+            </div>
+
+            <!-- Columna de Agenda -->
+            <div class="footer-col">
+                <h3>Agenda</h3>
+                <ul></ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Coniuntio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Modal de Inicio de Sesión -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Inicia sesión</h2>
+            <form id="login-form">
+                <label for="login-email">Correo electrónico</label>
+                <input type="email" id="login-email" name="email" placeholder="ejemplo@correo.com" required>
+                
+                <label for="login-password">Contraseña</label>
+                <input type="password" id="login-password" name="password" required>
+                
+                <button type="submit" class="submit-btn">Ingresar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal de Agendar Hora -->
+    <div id="agenda-modal" class="modal">
+        <div class="modal-content modal-agenda">
+            <span class="close-modal" id="close-agenda">&times;</span>
+            <h2>Agendar una Hora</h2>
+            <p class="modal-subtitle">Ingrese sus datos para hacer una consulta de hora</p>
+            
+            <form id="agenda-form">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label for="agenda-nombre">Nombres</label>
+                        <input type="text" id="agenda-nombre" name="nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="agenda-apellido-p">Apellido Paterno</label>
+                        <input type="text" id="agenda-apellido-p" name="apellido_p" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="agenda-apellido-m">Apellido Materno</label>
+                        <input type="text" id="agenda-apellido-m" name="apellido_m" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="agenda-rut">Rut</label>
+                        <input type="text" id="agenda-rut" name="rut" placeholder="12.345.678-9" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="agenda-telefono">Número telefónico</label>
+                        <div class="phone-input-group">
+                            <select name="prefijo">
+                                <option value="+56" selected>🇨🇱 +56</option>
+                            </select>
+                            <input type="tel" id="agenda-telefono" name="telefono" placeholder="9 1234 5678" inputmode="numeric" pattern="[0-9]*" required>
+                        </div>
+                    </div>
+                </div>
+
+                <label for="agenda-servicio">Servicio:</label>
+                <select id="agenda-servicio" name="servicio" required>
+                    <option value="" disabled selected>Seleccione un servicio</option>
+                    <option value="psicoterapia">Psicoterapia con enfoque transpersonal</option>
+                    <option value="medicina-integral">Medicina integral con enfoque en salud mental</option>
+                    <option value="trabajo-social">Trabajo social en salud</option>
+                    <option value="carta-natal">Carta natal enfocado en lo terapéutico</option>
+                    <option value="counseling">Counseling</option>
+                    <option value="terapia-floral">Terapia floral</option>
+                    <option value="constelaciones-familiares">Constelaciones familiares</option>
+                    <option value="medicina-general">Medicina general</option>
+                </select>
+
+                <label for="agenda-nota">Nota Extra:</label>
+                <textarea id="agenda-nota" name="nota" rows="3"></textarea>
+
+                <div class="modal-footer-btns">
+                    <button type="button" class="cancel-btn" id="btn-cancelar-agenda">Cancelar</button>
+                    <button type="submit" class="submit-btn">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../script.js"></script>
+    <script src="nosotros.js"></script>
+</body>
+
+</html>

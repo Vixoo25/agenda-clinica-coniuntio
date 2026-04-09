@@ -1,0 +1,101 @@
+/* Estilos específicos para la página "Servicios" */
+
+/* Banner superior de la página */
+.servicios-hero {
+    height: 40vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-video-servicios {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+/* Título principal de la página */
+.page-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    color: var(--primary-dark);
+}
+
+/* Estilos para cada item de servicio */
+.service-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Imagen 1/4, Texto 3/4 */
+    gap: 2.5rem;
+    align-items: center;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+/* Estilo alternado para los items pares */
+.service-item:nth-child(even) {
+    grid-template-columns: 3fr 1fr; /* Texto 3/4, Imagen 1/4 */
+}
+
+.service-item:nth-child(even) .service-item-image {
+    grid-column: 2; /* Mueve la imagen a la segunda columna */
+    grid-row: 1;
+}
+
+.service-item:nth-child(even) .service-item-text {
+    grid-column: 1; /* Mueve el texto a la primera columna */
+    grid-row: 1;
+}
+
+.service-item-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    object-fit: cover;
+}
+
+.service-item-text h3 {
+    font-size: 1.8rem;
+    color: var(--primary-dark);
+    margin-bottom: 1rem;
+}
+
+.service-item-text p {
+    line-height: 1.7;
+    color: #555;
+}
+
+/* Responsividad */
+@media (max-width: 767px) {
+    .service-item,
+    .service-item:nth-child(even) {
+        grid-template-columns: 1fr; /* Una sola columna en móvil */
+        gap: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    .service-item:nth-child(even) .service-item-image,
+    .service-item-image {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .service-item:nth-child(even) .service-item-text,
+    .service-item-text {
+        grid-column: 1;
+        grid-row: 2;
+        text-align: justify;
+    }
+
+    .service-item-text h3 {
+        text-align: center;
+    }
+}
